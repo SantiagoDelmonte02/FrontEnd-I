@@ -1,0 +1,24 @@
+/* Importo el link de la font "Inter" */
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@font-face {
+    font-family: "Playfair Display";
+    src:local("PlayfairDisplay-BoldItalic"),
+        local("Playfair Display BoldItalic"),
+        url("../fonts/PlayfairDisplay-BoldItalic.ttf");
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: black;
+}
+
+.banner {
+    background-image: url(../img/lemon-pie2.jpg);
+    color: aliceblue;
+    background-size: cover;
+    height: 343px;
+}
+
+h2 {
+    font-family: "Playfair Display";
+}
