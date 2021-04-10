@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+
+* {
+    margin: 0%;
+}
+
+body {
+	font-family: 'New Tegomin', serif;
+    background-color: rgb(182, 187, 192);
+}
+
+main {
+	text-align: center;
+    align-items: center;
+    
+}
+aside {
+	background-color: rgba(128, 191, 207, 0.726);
+	font-size: 25px;
+    padding: 7px;
+}
+header {
+	position: sticky;
+	z-index: 15;
+	top: 0;
+}
+
+h1 {
+	background-color: #00669f;
+	font-size: 40px;
+    padding: 7px;
+}
+h2 {
+	text-align: center;
+	font-size: 30px;
+	margin-top: 55px;
+}
+.card {
+	border-radius: 15px 15px 0 0;
+    position: relative;
+    margin: 60px auto;
+    width: 400px;
+    height: 700px;
+    background-color: rgba(128, 191, 207, 0.726);
+}
+
+.heart {
+    position: absolute;
+    z-index: 10;
+    color: red;
+    padding: 30px;
+}
+
+/* ------ Header */
+
+.profile {
+	width: 150px;
+	height: 150px;
+	position: absolute;
+    top: 150px;
+    left: 120px;
+	border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
+/* ------- */
+
+.background {
+	width: 400px;
+	height: 260px;
+	box-sizing: border-box;
+	border-radius: 15px 15px 0 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+/* ----------BODY */
+
+
+
+.parag {
+	position: absolute;
+	text-align: justify;
+	padding: 30px;
+}
+
+.btn {
+	width: 340px;
+	height: 80px;
+	background-color: #00669f;
+	font-size: 25px;
+	color: white;
+    position: relative;
+	top: 220px;
+	left: 30px;
+    border-radius: 10px;
+}
+
+.btn a {
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+
+footer {
+    height: 100px;
+	background-color: #00669f;
+	font-size: 26px;
+	color: white;
+    text-align: center;
+}
+
+footer span {
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+
+.github {
+    position: absolute;
+    right: 20px;
+    padding-top: 20px;
+}
