@@ -63,14 +63,14 @@ h2 {
 .entrada {
     width: 600px;
     margin: 10px;
-    height: 30px;
+    height: 20px;
 }
 
 .menu {
     width: 624px;
     margin: 10px;
-    height: 60px;
-    font-size: 20px;
+    height: 45px;
+    font-size: 15px;
     padding: 10px;
     border: 2px solid #333333;
 }
@@ -95,23 +95,23 @@ h2 {
 }
 
 input[type=text], input[type=password] {
-    font-size: 20px;
+    font-size: 15px;
     padding: 10px;
     border: 2px solid #333333;
 }
 
 input[type=submit], input[type=reset] {
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
 }
 
 footer {
     position: absolute;
     bottom: 0;
-    height: 80px;
+    height: 50px;
     width: 100%;
 	background-color: #00669f;
-	font-size: 20px;
+	font-size: 18px;
 	color: white;
     text-align: center;
 }
@@ -119,5 +119,5 @@ footer {
 footer span {
     text-align: center;
     position: relative;
-    top: 30px;
+    top: 12px;
 }
